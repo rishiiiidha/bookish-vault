@@ -17,11 +17,7 @@ const Home = () => {
     <div className="h-screen w-100vh">
       <div className="flex flex-wrap justify-center p-4">
         {data.map((book, index) => (
-          <Card
-            key={index}
-            book={book}
-            
-          />
+          <Card key={index} book={book} />
         ))}
       </div>
     </div>
