@@ -16,7 +16,7 @@ const CreateBook = () => {
     };
 
     axios
-      .post("http://localhost:3000/book", data)
+      .post("https://bookish-vaulttt.onrender.com/book", data)
       .then(() => {
         alert("Book added successfully");
 

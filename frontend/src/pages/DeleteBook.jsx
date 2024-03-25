@@ -11,7 +11,7 @@ const DeleteBook = () => {
   const [publishYear, setPublishYear] = useState("");
 
   useEffect(() => {
-    fetch(`http://localhost:3000/book/${id}`)
+    fetch(`https://bookish-vaulttt.onrender.com/book/${id}`)
       .then((response) => response.json())
       .then((data) => {
         setData(data);
@@ -24,7 +24,7 @@ const DeleteBook = () => {
 
   const handleDelete = () => {
     axios
-      .delete(`http://localhost:3000/book/${id}`)
+      .delete(`https://bookish-vaulttt.onrender.com/book/${id}`)
       .then((res) => {
         alert(res.data.message);
         navigate("/");

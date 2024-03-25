@@ -11,7 +11,7 @@ const EditBook = () => {
   const [publishYear, setPublishYear] = useState("");
 
   useEffect(() => {
-    fetch(`http://localhost:3000/book/${id}`)
+    fetch(`https://bookish-vaulttt.onrender.com/book/${id}`)
       .then((response) => response.json())
       .then((data) => {
         setData(data);
@@ -43,7 +43,7 @@ const EditBook = () => {
     };
     
     axios
-      .put(`http://localhost:3000/book/${id}`, updatedBookData)
+      .put(`https://bookish-vaulttt.onrender.com/book/${id}`, updatedBookData)
       .then((res) => {
         alert(res.data.message);
         navigate("/");

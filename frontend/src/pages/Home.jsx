@@ -7,7 +7,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("http://localhost:3000/book")
+    fetch("https://bookish-vaulttt.onrender.com/book")
       .then((response) => response.json())
       .then((data) => setData(data.data))
       .catch((error) => console.error("Error fetching data:", error));

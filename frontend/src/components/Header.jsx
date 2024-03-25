@@ -11,7 +11,7 @@ const Header = () => {
       <div>
         <div>
           <img
-            className="h-32 w-full object-cover lg:h-24"
+            className="h-32 w-full object-cover lg:h-24 mb-4"
             src="https://images.unsplash.com/photo-1504903271097-d7e7c7f5f7ad?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGFya3xlbnwwfHwwfHx8MA%3D%3D"
             alt=""
           />
