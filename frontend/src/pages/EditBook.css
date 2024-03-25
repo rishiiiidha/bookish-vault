@@ -1,0 +1,19 @@
+@keyframes confetti {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(1000px) rotate(360deg);
+    opacity: 1;
+  }
+}
+
+.confetti {
+  width: 10px;
+  height: 10px;
+  background-color: #e0b0ff; /* Purple */
+  position: absolute;
+  border-radius: 50%;
+  animation: confetti 3s ease-out infinite;
+}
