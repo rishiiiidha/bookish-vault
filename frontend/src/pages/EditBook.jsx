@@ -55,7 +55,7 @@ const EditBook = () => {
 
   return (
     <div className="flex justify-center items-center h-full mt-12 text-white ">
-      <div className="flex flex-col w-40 md:w-1/4 p-8 bg-gray-900 rounded-lg shadow-md">
+      <div className="flex flex-col  md:w-1/3 p-8 bg-gray-900 rounded-lg shadow-md">
         <h1 className="text-center text-2xl font-bold mb-6">Edit Book</h1>
         <div className="flex mb-4">
           <label htmlFor="title" className="text-lg w-1/3">
