@@ -17,7 +17,7 @@ Bookish Vault is a MERN (MongoDB, Express.js, React, Node.js) stack application 
 
 - MongoDB
 - Express.js
-- React: A JavaScript library for building user interfaces.
+- React
 - Node.js
 - Tailwind CSS
 
